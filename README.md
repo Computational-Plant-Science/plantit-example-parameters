@@ -1,10 +1,9 @@
-# PlantIT Examples: Hello Typed Parameters
+# PlantIT Examples: Hello Parameters
 
-A simple PlantIT workflow to demonstrate typed parameters. The following parameter types are supported:
+A simple PlantIT workflow to demonstrate parameters. The following types are supported:
 
 - `string`
-- `selector`
-- `multiselector`
-- `integer`
-- `float`
+- `select`
+- `multiselect`
+- `number`
 - `boolean`

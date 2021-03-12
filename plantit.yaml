@@ -4,7 +4,7 @@ public: True
 clone: False
 image: docker://alpine
 commands: echo "String $STRING, Select $SELECT, Multiselect $MULTISELECT, Number $NUMBER, Boolean $BOOLEAN"
-logo: gear.png
+logo: knob.jpg
 params:
   - name: String
     type: string
