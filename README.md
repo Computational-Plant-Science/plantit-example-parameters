@@ -1,4 +1,4 @@
-# PlantIT Examples: Hello Parameters
+# PlantIT Example: Parameters
 
 A simple PlantIT workflow to demonstrate parameters. The following types are supported:
 
