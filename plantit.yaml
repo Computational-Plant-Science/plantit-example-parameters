@@ -3,19 +3,19 @@ author: Wes Bonelli
 public: True
 clone: False
 image: docker://alpine
-commands: echo "String $STRING, Choice $CHOICE, Multiple choice: $MULTIPLECHOICE, Integer"
+commands: echo "String: $STRING, Select: $SELECT, Multiselect: $MULTISELECT, Number: $NUMBER, Boolean: $BOOLEAN"
 logo: gear.png
 params:
-  - name: string
+  - name: String
     type: string
     default: Hello, world!
-  - name: choice
+  - name: Select
     type: select
     options:
       - Option 1
       - Option 2
     default: Option 1
-  - name: multiplechoice
+  - name: Nultiselect
     type: multiselect
     options:
       - Option A
@@ -24,13 +24,13 @@ params:
     default:
       - Option A
       - Option B
-  - name: number
+  - name: Number
     type: number
     default: 42
     step: 1
     min: 0
     max: 100
-  - name: toggle
+  - name: Boolean
     type: boolean
     default: False
 resources:
