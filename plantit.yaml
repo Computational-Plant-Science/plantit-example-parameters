@@ -15,7 +15,7 @@ params:
       - Option 1
       - Option 2
     default: Option 1
-  - name: Nultiselect
+  - name: Multiselect
     type: multiselect
     options:
       - Option A
