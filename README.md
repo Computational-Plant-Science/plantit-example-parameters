@@ -4,6 +4,5 @@ A simple PlantIT workflow to demonstrate parameters. The following types are sup
 
 - `string`
 - `select`
-- `multiselect`
 - `number`
 - `boolean`
