@@ -3,8 +3,8 @@ author: Wes Bonelli
 public: True
 clone: False
 image: docker://alpine
-commands: echo "String $STRING, Select $SELECT, Multiselect $MULTISELECT, Number $NUMBER, Boolean $BOOLEAN"
-logo: control.jpg
+commands: echo "String $STRING Select $SELECT Multiselect $NUMBER Boolean $BOOLEAN"
+logo: control.png
 params:
   - name: String
     type: string
@@ -15,15 +15,6 @@ params:
       - Option 1
       - Option 2
     default: Option 1
-  - name: Multiselect
-    type: multiselect
-    options:
-      - Option A
-      - Option B
-      - Option C
-    default:
-      - Option A
-      - Option B
   - name: Number
     type: number
     default: 42
