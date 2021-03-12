@@ -11,6 +11,7 @@ params:
     options:
       - Option 1
       - Option 2
+    default: Option 1
 resources:
   time: "00:10:00"
   mem: "1GB"
