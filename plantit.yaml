@@ -3,15 +3,36 @@ author: Wes Bonelli
 public: True
 clone: False
 image: docker://alpine
-commands: echo "You selected $OPTION"
+commands: echo "String $STRING, Choice $CHOICE, Multiple choice: $MULTIPLECHOICE, Integer"
 logo: gear.png
 params:
-  - name: option
+  - name: string
+    type: string
+    default: Hello, world!
+  - name: choice
     type: select
     options:
       - Option 1
       - Option 2
     default: Option 1
+  - name: multiplechoice
+    type: multiselect
+    options:
+      - Option A
+      - Option B
+      - Option C
+    default:
+      - Option A
+      - Option B
+  - name: number
+    type: number
+    default: 42
+    step: 1
+    min: 0
+    max: 100
+  - name: toggle
+    type: boolean
+    default: False
 resources:
   time: "00:10:00"
   mem: "1GB"
