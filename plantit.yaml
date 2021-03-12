@@ -4,7 +4,7 @@ public: True
 clone: False
 image: docker://alpine
 commands: echo "You selected $OPTION"
-logo: gear.jpg
+logo: gear.png
 params:
   - name: option
     type: select
