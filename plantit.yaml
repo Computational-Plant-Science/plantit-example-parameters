@@ -3,7 +3,7 @@ author: Wes Bonelli
 public: True
 clone: False
 image: docker://alpine
-commands: echo "String: $STRING, Select: $SELECT, Multiselect: $MULTISELECT, Number: $NUMBER, Boolean: $BOOLEAN"
+commands: echo "String $STRING, Select $SELECT, Multiselect $MULTISELECT, Number $NUMBER, Boolean $BOOLEAN"
 logo: gear.png
 params:
   - name: String
