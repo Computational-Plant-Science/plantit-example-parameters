@@ -1,4 +1,4 @@
-name: Example: Parameters
+name: "Example: Parameters"
 public: True
 clone: False
 image: docker://alpine
