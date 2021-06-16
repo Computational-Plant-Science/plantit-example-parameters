@@ -23,8 +23,8 @@ params:
   - name: Boolean
     type: boolean
     default: False
-resources:
+jobqueue:
   time: "00:10:00"
-  mem: "1GB"
+  memory: "1GB"
   processes: 1
   cores: 1
