@@ -1,6 +1,5 @@
 name: "Example: Parameters"
 public: True
-clone: False
 image: docker://alpine
 commands: echo "String $STRING Select $SELECT Number $NUMBER Boolean $BOOLEAN"
 logo: control.png
