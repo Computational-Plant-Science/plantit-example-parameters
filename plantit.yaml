@@ -1,4 +1,5 @@
 name: "Example: Parameters"
+author: Computational Plant Science Lab
 public: True
 image: docker://alpine
 commands: echo "String $STRING Select $SELECT Number $NUMBER Boolean $BOOLEAN"
